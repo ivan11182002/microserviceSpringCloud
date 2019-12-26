@@ -2,7 +2,9 @@
 
 ##練習建置Gradle專案
 
-**build.gradle說明**
+**創建 build.gradle檔說明**
+
+https://stevenitlife.blogspot.com/2017/08/gradle-web.html
 
 1.`apply plugin`: 引入插件，這裡引入 java 及 war 兩個插件，這樣就可以編譯、測試並包裝 war 檔了 (一般 console、desktop 程式不需要引入 war 這個插件)。
 
@@ -23,3 +25,5 @@
 9.`compile fileTree`: 有一些 jar 檔不是到網路上的 jar repository 裡抓的，是放在自己的電腦某處，像這裡，這類的 jar 檔是放在專案根目錄的 library 目錄下，所以要這個指令指出來。
 
 10.`testCompile group`: 指出測試時要用的 framework，這裡使用的是 JUnit 4.+ 版。
+
+程式寫好，build.gradle 也準備好了，就在專案的目錄下打入 `gradle build` 指令，build 是 java 插件提供的一個任務 (task)，這個任務會以正確的順序編譯、測試和打包。
