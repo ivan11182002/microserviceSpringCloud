@@ -1,6 +1,9 @@
 # startGradle
+
 ##練習建置Gradle專案
+
 **build.gradle說明**
+
 1.`apply plugin`: 引入插件，這裡引入 java 及 war 兩個插件，這樣就可以編譯、測試並包裝 war 檔了 (一般 console、desktop 程式不需要引入 war 這個插件)。
 
 2.`sourceCompatibility`: 指出編譯要用的 JDK 版本，這裡指出是要用 1.8 版。
