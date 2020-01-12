@@ -1,6 +1,6 @@
-# startGradle
+# GRADLE NOTE
 
-##練習建置Gradle專案
+##安裝Gradle說明(手動設定環境變數)
 
 **創建 build.gradle檔說明**
 
