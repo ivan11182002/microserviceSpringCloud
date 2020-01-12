@@ -1,6 +1,6 @@
 # GRADLE NOTE
 
-##安裝Gradle說明(手動設定環境變數)
+## 安裝Gradle說明(手動設定環境變數)
 
 **創建 build.gradle檔說明**
 
