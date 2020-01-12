@@ -1,0 +1,5 @@
+rootProject.name = 'SpringCloudRoot'
+
+include 'SpringCloud-Service01-Config'
+include 'SpringCloud-Service02-Eureka'
+include 'SpringCloud-Service03-Zuul'
